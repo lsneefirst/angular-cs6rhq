@@ -12,9 +12,7 @@ export class AppComponent  {
 
  OnInit(){
     (function ($) {
-      $(document).ready(function(){
         console.log("Hello from jQuery!");
-      });
     })(jQuery);
   }
   }
